@@ -3,6 +3,10 @@ body {
 	background-color: black;
 }
 
+section h1{
+	border-right: 4px white solid;
+}
+
 
 /* HEADER */
 #header-div {
@@ -59,17 +63,20 @@ section {
 }
 
 section h1{
+	font-family: Oswald;
 	color: white;
-	margin: 0;
-	padding: 0;
+	float: left;
+	line-height: 0;
 }
 
 
 article {
+	font-family: Oswald;
 	color: white;
 	width: 66%;
-	border-right: solid white;
+	clear: both;
 	float: left;
+	border-right: 4px solid white;
 }
 
 #Mopey-Batman {
@@ -81,10 +88,13 @@ article {
 /* ASIDE */
 
 aside {
+	font-family: Oswald;
 	color: white;
 	float: right;
 	width: 33%;
 	height: 100%;
+	margin-top: -40px;
+	border-left: 4px white solid;
 }
 
 aside h1 {
